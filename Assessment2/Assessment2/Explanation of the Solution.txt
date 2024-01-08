@@ -1,0 +1,6 @@
+Explanation of the Solution
+
+1. The web service is built using ASP.NET Core and adheres to RESTful principles by using the [Route] and [ApiController] attributes.
+2. Two endpoint methods are provided GetAllWeatherData to fetch all weather observation data for a station and GetSpecificWeatherData to fetch a specific piece of weather observation data.
+3. The GetWeatherData method sends a GET request to the provided API URL, and the ParseJsonResponse method is a placeholder for the logic to parse the JSON response and extract weather observation data.
+4. The web service is designed to be deployable to IIS as a .NET Core API project.
